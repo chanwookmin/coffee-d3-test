@@ -1,7 +1,7 @@
 {
- "name": "Fruit",
- "children": [
-  {
+   "name": "Fruit",
+   "children": [
+    {
      "name": "Citrus",
      "children": [
       {"name": "Lemon", "value": 3938},
@@ -18,11 +18,50 @@
      ]
     },
     {
-     "name": "Melon",
+     "name": "Grape",
      "children": [
-      {"name": "Watermelon", "value": 7074},
-      {"name": "Honeydew", "value": 7075},
-      {"name": "Centalope", "value": 7076}
+      {"name": "Green grape", "value": 7074},
+      {"name": "Red Grape / Purple", "value": 7075},
+      {"name": "Concord grape", "value": 7076}
+     ]
+    },
+    {
+     "name": "Tropical Fruit*",
+     "children": [
+      {"name": "Lychee", "value": 7074},
+      {"name": "Passion Fruit", "value": 7075},
+      {"name": "Pine Apple", "value": 7076},
+      {"name": "Mango", "value": 7074},
+      {"name": "Papaya", "value": 7075},
+      {"name": "Banana", "value": 7076},
+      {"name": "Cpcpnut", "value": 7075}
+     ]
+    },
+    {
+     "name": "Stone Fruit*",
+     "children": [
+      {"name": "Peach/Nectarine", "value": 7074},
+      {"name": "Apricot", "value": 7075},
+      {"name": "Plum", "value": 7076}
+     ]
+    },
+    {
+     "name": "Berry",
+     "children": [
+      {"name": "Cranberry", "value": 7074},
+      {"name": "Raseberry", "value": 7075},
+      {"name": "Strawberry", "value": 7076},
+      {"name": "Blueberry", "value": 7075},
+      {"name": "Blackberry", "value": 7076}
+     ]
+    },
+    {
+     "name": "Dried Fruit",
+     "children": [
+      {"name": "Raisins", "value": 7074},
+      {"name": "Dried Fig", "value": 7075},
+      {"name": "Dried Dates", "value": 7076},
+      {"name": "Prunes(Dried Plums)", "value": 7075}
      ]
     }
    ]
