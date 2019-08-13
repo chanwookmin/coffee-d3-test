@@ -1,4 +1,7 @@
 {
+  "name":"Coffee Flavor",
+  "children":[
+    {
    "name": "Fruit",
    "children": [
     {
@@ -66,3 +69,5 @@
     }
    ]
   }
+ ]
+}
