@@ -1,0 +1,34 @@
+{
+ "name": "Fruit",
+ "children": [
+  {
+   "name": "Citrus",
+   "children": [
+    {
+     "name": "cluster",
+     "children": [
+      {"name": "Lemon", "value": 3938},
+      {"name": "Lime", "value": 3812},
+      {"name": "Clementine/Tangerine/ Mandarin Orange", "value": 6714},
+      {"name": "Grapefruit", "value": 743}
+     ]
+    },
+    {
+     "name": "Apple / Pear *",
+     "children": [
+      {"name": "Green Apple", "value": 3534},
+      {"name": "Red Apple", "value": 5731}
+     ]
+    },
+    {
+     "name": "Melon",
+     "children": [
+      {"name": "Watermelon", "value": 7074},
+      {"name": "Honeydew", "value": 7075},
+      {"name": "Centalope", "value": 7076}
+     ]
+    }
+   ]
+  }
+ ]
+}
