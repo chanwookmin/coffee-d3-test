@@ -2,7 +2,7 @@
  "name": "Fruit",
  "children": [
   {
-     "name": "cluster",
+     "name": "Citrus",
      "children": [
       {"name": "Lemon", "value": 3938},
       {"name": "Lime", "value": 3812},
