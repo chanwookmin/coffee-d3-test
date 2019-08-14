@@ -2,72 +2,226 @@
   "name":"Coffee Flavor",
   "children":[
     {
-   "name": "Fruit",
-   "children": [
-    {
-     "name": "Citrus",
-     "children": [
-      {"name": "Lemon", "value": 3938},
-      {"name": "Lime", "value": 3812},
-      {"name": "Clementine/Tangerine/ Mandarin Orange", "value": 6714},
-      {"name": "Grapefruit", "value": 743}
-     ]
+      "name": "Fruit",
+      "children": [
+        {
+          "name": "Citrus",
+          "children": [
+            {"name": "Lemon", "value": 3938},
+            {"name": "Lime", "value": 3812},
+            {"name": "Clementine/Tangerine/ Mandarin Orange", "value": 6714},
+            {"name": "Grapefruit", "value": 743}
+          ]
+        },
+        {
+          "name": "Apple / Pear *",
+          "children": [
+            {"name": "Green Apple", "value": 3534},
+            {"name": "Red Apple", "value": 5731}
+          ]
+        },
+        {
+          "name": "Grape",
+          "children": [
+            {"name": "Green grape", "value": 7074},
+            {"name": "Red Grape / Purple", "value": 7075},
+            {"name": "Concord grape", "value": 7076}
+          ]
+        },
+        {
+          "name": "Tropical Fruit*",
+          "children": [
+            {"name": "Lychee", "value": 7074},
+            {"name": "Passion Fruit", "value": 7075},
+            {"name": "Pine Apple", "value": 7076},
+            {"name": "Mango", "value": 7074},
+            {"name": "Papaya", "value": 7075},
+            {"name": "Banana", "value": 7076},
+            {"name": "Cpcpnut", "value": 7075}
+          ]
+        },
+        {
+          "name": "Stone Fruit*",
+          "children": [
+            {"name": "Peach/Nectarine", "value": 7074},
+            {"name": "Apricot", "value": 7075},
+            {"name": "Plum", "value": 7076}
+          ]
+        },
+        {
+          "name": "Berry",
+          "children": [
+            {"name": "Cranberry", "value": 7074},
+            {"name": "Raseberry", "value": 7075},
+            {"name": "Strawberry", "value": 7076},
+            {"name": "Blueberry", "value": 7075},
+            {"name": "Blackberry", "value": 7076}
+          ]
+        },
+        {
+          "name": "Dried Fruit",
+          "children": [
+            {"name": "Raisins", "value": 7074},
+            {"name": "Dried Fig", "value": 7075},
+            {"name": "Dried Dates", "value": 7076},
+            {"name": "Prunes(Dried Plums)", "value": 7075}
+          ]
+        }
+      ]
     },
     {
-     "name": "Apple / Pear *",
-     "children": [
-      {"name": "Green Apple", "value": 3534},
-      {"name": "Red Apple", "value": 5731}
-     ]
+      "name": "Fermented",
+      "children": [
+        {
+          "name": "Alcohol/Fermented",
+          "children": [
+            {"name": "Winey", "value": 3938},
+            {"name": "Whiskey", "value": 3812},
+            {"name": "Fermented", "value": 6714},
+            {"name": "Overripe", "value": 743}
+          ]
+        }
+      ]
     },
     {
-     "name": "Grape",
-     "children": [
-      {"name": "Green grape", "value": 7074},
-      {"name": "Red Grape / Purple", "value": 7075},
-      {"name": "Concord grape", "value": 7076}
-     ]
+      "name": "Chocolate",
+      "children": [
+        {
+          "name": "Cocoa",
+          "children": [
+            {"name": "Cacao Nibs", "value": 3938},
+            {"name": "Dark Chocolate", "value": 3812},
+            {"name": "Milk Chocolate", "value": 6714}
+          ]
+        },
+        {
+          "name": "Nutty",
+          "children": [
+            {"name": "Almond", "value": 3938},
+            {"name": "Hazelnut", "value": 3812},
+            {"name": "Peanuts", "value": 6714},
+            {"name": "Cashew", "value": 6714}
+          ]
+        }
+      ]
     },
     {
-     "name": "Tropical Fruit*",
-     "children": [
-      {"name": "Lychee", "value": 7074},
-      {"name": "Passion Fruit", "value": 7075},
-      {"name": "Pine Apple", "value": 7076},
-      {"name": "Mango", "value": 7074},
-      {"name": "Papaya", "value": 7075},
-      {"name": "Banana", "value": 7076},
-      {"name": "Cpcpnut", "value": 7075}
-     ]
+      "name": "Sweet",
+      "children": [
+        {
+          "name": "Sweet aromatics"
+        },
+        {
+          "name": "Overall Sweet"
+        },
+        {
+          "name": "Sugar cane"
+        },
+        {
+          "name": "Vanilin"
+        },
+        {
+          "name": "Vanilla"
+        },
+        {
+          "name": "Brown Sugar",
+          "children":[
+            {"name":"Honey", "value":222},
+            {"name":"Caramelized", "value":222},
+            {"name":"Mapple syrup", "value":222},
+            {"name":"Molasses", "value":222}
+          ]
+        }
+      ]
     },
     {
-     "name": "Stone Fruit*",
-     "children": [
-      {"name": "Peach/Nectarine", "value": 7074},
-      {"name": "Apricot", "value": 7075},
-      {"name": "Plum", "value": 7076}
-     ]
+      "name": "Floral",
+      "children": [
+        {
+          "name": "Floral",
+          "children":[
+            {"name":"Lemongrass", "value":222},
+            {"name":"Orange Blossom", "value":222},
+            {"name":"Jasmine Honeysuckle", "value":222},
+            {"name":"Magnolia", "value":222},
+            {"name":"Lavender", "value":222},
+            {"name":"Ross Hips", "value":222},
+            {"name":"Hibiscus", "value":222}
+          ]
+        },
+        {
+          "name": "Black Tea"
+        }
+      ]
     },
     {
-     "name": "Berry",
-     "children": [
-      {"name": "Cranberry", "value": 7074},
-      {"name": "Raseberry", "value": 7075},
-      {"name": "Strawberry", "value": 7076},
-      {"name": "Blueberry", "value": 7075},
-      {"name": "Blackberry", "value": 7076}
-     ]
+      "name": "Green/Vegetable",
+      "children": [
+        {
+          "name": "Olive Oil"
+        },
+        {
+          "name": "Herb",
+          "children":[
+            {"name":"Mint", "value":222},
+            {"name":"Sage", "value":222},
+            {"name":"Dill", "value":222}
+          ]
+        },
+        {
+          "name": "Beany"
+        },
+        {
+          "name": "Soil"
+        }
+      ]
     },
     {
-     "name": "Dried Fruit",
-     "children": [
-      {"name": "Raisins", "value": 7074},
-      {"name": "Dried Fig", "value": 7075},
-      {"name": "Dried Dates", "value": 7076},
-      {"name": "Prunes(Dried Plums)", "value": 7075}
-     ]
+      "name": "Spices",
+      "children": [
+        {
+          "name": "Brown Spice",
+          "children":[
+            {"name":"Clove", "value":222},
+            {"name":"Cinnamon", "value":222},
+            {"name":"Nutmeg", "value":222},
+            {"name":"Anise", "value":222}
+          ]
+        },
+        {
+          "name": "Pepper"
+        },
+        {
+          "name": "Pungent"
+        },
+        {
+          "name": "Ginger"
+        }
+      ]
+    },
+    {
+      "name": "Roasted",
+      "children": [
+        {
+          "name": "Cereal",
+          "children":[
+            {"name":"Mint", "value":222},
+            {"name":"Grain", "value":222}
+          ]
+        },
+        {
+          "name": "Burnt",
+          "children":[
+            {"name":"Brown, Roast", "value":222},
+            {"name":"Smoky", "value":222},
+            {"name":"Ashy", "value":222},
+            {"name":"Acrid", "value":222}
+          ]
+        },
+        {
+          "name": "Tobacco"
+        }
+      ]
     }
-   ]
-  }
- ]
+  ]
 }
