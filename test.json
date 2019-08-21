@@ -1,8 +1,8 @@
 {
-  "name":"Coffee Flavor",
+  "name":"Coffee Flavor", "colorValue":"#C64C39",
   "children":[
     {
-      "name": "Fruit", "colorValue":"#C64C39",
+      "name": "Fruit",
       "children": [
         {
           "name": "Citrus",
